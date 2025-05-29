@@ -193,7 +193,7 @@ public class FrmOrdenamiento extends JFrame {
                 }
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Debes ingresar un parametro");
+            JOptionPane.showMessageDialog(null, "Debes ingresar un parametro\n de busqueda");
         }
         
         txtTiempo.setText(Util.getTextoTiempoCronometro());
